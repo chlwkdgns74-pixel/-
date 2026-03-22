@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>감성 플레이리스트 | 노래 추천 | 숏츠 음악</title>
+  <meta name="description" content="감성 플레이리스트, 노래 추천, 음악 추천, 숏츠 음악까지! 드라이브, 카페, 새벽 감성 음악 모음">
+  <meta name="keywords" content="플레이리스트, 노래 추천, 음악 추천, 감성 플레이리스트, 숏츠 음악">
+
+  <!-- SNS 공유 -->
+  <meta property="og:title" content="감성 플레이리스트 | 노래 추천">
+  <meta property="og:description" content="요즘 유행 노래, 중독성 있는 숏츠 음악 모음">
+  <meta property="og:image" content="썸네일이미지URL">
+  <meta property="og:type" content="website">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #111;
+      color: #fff;
+      text-align: center;
+    }
+
+    header {
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #1db954, #191414);
+    }
+
+    h1 { font-size: 2.5rem; }
+    h2 { margin-bottom: 20px; }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 30px;
+      background: #1db954;
+      color: #000;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #1ed760;
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 50px 20px;
+    }
+
+    .card {
+      background: #1c1c1c;
+      margin: 15px auto;
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 420px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      background: #222;
+    }
+
+    iframe {
+      width: 100%;
+      height: 230px;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    footer {
+      padding: 25px;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>🎧 감성 플레이리스트</h1>
+  <p>노래 추천 | 음악 추천 | 숏츠 음악</p>
+
+  <!-- 실제 채널 링크 넣기 -->
+  <a href="https://youtube.com/@채널아이디" target="_blank" class="btn">
+    🚀 유튜브 구독하러 가기
+  </a>
+</header>
+
+<section>
+  <h2>🔥 인기 플레이리스트</h2>
+
+  <div class="card">
+    <h3>🌙 새벽 감성 노래</h3>
+    <p>혼자 듣기 좋은 감성 플레이리스트</p>
+  </div>
+
+  <div class="card">
+    <h3>🚗 드라이브 음악</h3>
+    <p>차에서 듣기 좋은 노래 추천</p>
+  </div>
+
+  <div class="card">
+    <h3>☕ 카페 음악</h3>
+    <p>분위기 좋은 음악 모음</p>
+  </div>
+</section>
+
+<section>
+  <h2>🎬 최신 숏츠 음악</h2>
+
+  <div class="card">
+    <h3>중독성 있는 노래</h3>
+    <iframe src="https://www.youtube.com/embed/영상ID" allowfullscreen></iframe>
+  </div>
+
+  <div class="card">
+    <h3>요즘 유행 노래</h3>
+    <iframe src="https://www.youtube.com/embed/영상ID" allowfullscreen></iframe>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 감성 플레이리스트 | 노래 추천 | 음악 추천
+</footer>
+
+</body>
+</html>
